@@ -1,0 +1,86 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;;
+ }
+
+ body{
+    background-color: rgb(0, 60, 255);
+    color: rgba(236, 223, 223, 0.849);
+ }
+
+ h1{
+    font-size: 2rem;
+ }
+
+ h2{
+    font-size: 2rem;
+ }
+
+ h3{
+    font-size: 1.5rem;
+ }
+
+ .container{
+    background-color: lightskyblue;
+    color: rgb(0, 60, 255);
+    font-weight: bold;
+    padding: 1.5em;
+    border-radius: 2em;
+    width: 85%;
+    margin: 0 auto;
+ }
+
+ .submit{
+    border: none;
+    background-color: greenyellow;
+    padding: 0.3rem;
+    border-radius: 1em;
+    margin-top: 1em;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: 0.4s ease;
+ }
+
+ .submit:hover{
+    background-color: chartreuse;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.4 ease;
+ }
+
+ form{
+    margin: 2em auto;
+    width: 20em;
+ }
+
+ .form-group{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 60, 255);
+    font-size: medium;
+    margin-bottom: 1.5em; 
+    outline: none; 
+ }
+
+ input{
+    border: 3px solid royalblue;
+    border-bottom: 2px solid rgb(0, 60, 255);
+    background-color: white;
+    height: 2em;
+    text-indent: 10px;
+    font-size: medium;
+ } 
+
+
+
+ .mad-lib{
+    width: 20em;
+    margin: 2em auto;
+ }
+
+ b{
+    color: black;
+ }
